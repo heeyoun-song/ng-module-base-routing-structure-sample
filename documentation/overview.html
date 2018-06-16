@@ -1,0 +1,632 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-module-structure documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">ng-module-structure documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">ng-module-structure documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                         href="./overview.html" 
+                                        
+                                         href="./overview.html" 
+                                         class="active" >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AdminModule.html" >AdminModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/FrontModule.html" >FrontModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/GuideModule.html" >GuideModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/ProjectModule.html" >ProjectModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AdminComponent.html" >AdminComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/FrontComponent.html" >FrontComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/GuideComponent.html" >GuideComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/ProjectComponent.html" >ProjectComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/UsersComponent.html" >UsersComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="./classes/AppPage.html" >AppPage</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">ng-module-structure documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                                href="./overview.html" 
+                                               
+                                                href="./overview.html" 
+                                                class="active" >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AdminModule.html" >AdminModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/FrontModule.html" >FrontModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/GuideModule.html" >GuideModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/ProjectModule.html" >ProjectModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AdminComponent.html" >AdminComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/FrontComponent.html" >FrontComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/GuideComponent.html" >GuideComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/ProjectComponent.html" >ProjectComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/UsersComponent.html" >UsersComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./classes/AppPage.html" >AppPage</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content overview">
+                   <div class="content-data">
+
+
+<h3>Overview</h3>
+            <div class="text-center module-graph-container">
+                <div id="module-graph-svg">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="930pt" height="284pt"
+ viewBox="0.00 0.00 930.00 284.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 280)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-280 926,-280 926,4 -4,4"/>
+<text text-anchor="start" x="440.0091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="227,-10 227,-30 247,-30 247,-10 227,-10"/>
+<text text-anchor="start" x="250.629" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="340,-10 340,-30 360,-30 360,-10 340,-10"/>
+<text text-anchor="start" x="363.7251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="426,-10 426,-30 446,-30 446,-10 426,-10"/>
+<text text-anchor="start" x="449.7812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="523,-10 523,-30 543,-30 543,-10 523,-10"/>
+<text text-anchor="start" x="546.6732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="619,-10 619,-30 639,-30 639,-10 619,-10"/>
+<text text-anchor="start" x="642.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AdminModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-268 298,-268 298,-70 8,-70"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_AdminModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="19,-78 19,-130 287,-130 287,-78 19,-78"/>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_AdminModule_exports</title>
+<polygon fill="none" stroke="#000000" points="16,-208 16,-260 290,-260 290,-208 16,-208"/>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="306,-70 306,-268 446,-268 446,-70 306,-70"/>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_AppModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="315,-78 315,-130 437,-130 437,-78 315,-78"/>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="314,-208 314,-260 438,-260 438,-208 314,-208"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_FrontModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="454,-70 454,-195 598,-195 598,-70 454,-70"/>
+</g>
+<g id="clust17" class="cluster">
+<title>cluster_FrontModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="462,-78 462,-130 590,-130 590,-78 462,-78"/>
+</g>
+<g id="clust23" class="cluster">
+<title>cluster_GuideModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="606,-70 606,-195 754,-195 754,-70 606,-70"/>
+</g>
+<g id="clust24" class="cluster">
+<title>cluster_GuideModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="614,-78 614,-130 746,-130 746,-78 614,-78"/>
+</g>
+<g id="clust30" class="cluster">
+<title>cluster_ProjectModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="762,-70 762,-195 914,-195 914,-70 762,-70"/>
+</g>
+<g id="clust31" class="cluster">
+<title>cluster_ProjectModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="770,-78 770,-130 906,-130 906,-78 770,-78"/>
+</g>
+<!-- AdminComponent -->
+<g id="node1" class="node">
+<title>AdminComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="279.2204,-122 158.7796,-122 158.7796,-86 279.2204,-86 279.2204,-122"/>
+<text text-anchor="middle" x="219" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">AdminComponent</text>
+</g>
+<!-- AdminModule -->
+<g id="node3" class="node">
+<title>AdminModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="133.4386,-187 130.4386,-191 109.4386,-191 106.4386,-187 34.5614,-187 34.5614,-151 133.4386,-151 133.4386,-187"/>
+<text text-anchor="middle" x="84" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">AdminModule</text>
+</g>
+<!-- AdminComponent&#45;&gt;AdminModule -->
+<g id="edge1" class="edge">
+<title>AdminComponent&#45;&gt;AdminModule</title>
+<path fill="none" stroke="#000000" d="M239.0367,-122.0225C239.0367,-139.3734 239.0367,-163 239.0367,-163 239.0367,-163 143.4808,-163 143.4808,-163"/>
+<polygon fill="#000000" stroke="#000000" points="143.4809,-159.5001 133.4808,-163 143.4808,-166.5001 143.4809,-159.5001"/>
+</g>
+<!-- UsersComponent -->
+<g id="node2" class="node">
+<title>UsersComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="140.7036,-122 27.2964,-122 27.2964,-86 140.7036,-86 140.7036,-122"/>
+<text text-anchor="middle" x="84" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">UsersComponent</text>
+</g>
+<!-- UsersComponent&#45;&gt;AdminModule -->
+<g id="edge2" class="edge">
+<title>UsersComponent&#45;&gt;AdminModule</title>
+<path fill="none" stroke="#000000" d="M84,-122.1061C84,-122.1061 84,-140.991 84,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="80.5001,-140.9909 84,-150.991 87.5001,-140.991 80.5001,-140.9909"/>
+</g>
+<!-- AdminComponent  -->
+<g id="node4" class="node">
+<title>AdminComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="281.7205,-252 158.2795,-252 158.2795,-216 281.7205,-216 281.7205,-252"/>
+<text text-anchor="middle" x="220" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">AdminComponent </text>
+</g>
+<!-- AdminModule&#45;&gt;AdminComponent  -->
+<g id="edge3" class="edge">
+<title>AdminModule&#45;&gt;AdminComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M133.422,-175C164.581,-175 198.9633,-175 198.9633,-175 198.9633,-175 198.9633,-205.9775 198.9633,-205.9775"/>
+<polygon fill="#000000" stroke="#000000" points="195.4634,-205.9774 198.9633,-215.9775 202.4634,-205.9775 195.4634,-205.9774"/>
+</g>
+<!-- UsersComponent  -->
+<g id="node5" class="node">
+<title>UsersComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="140.2038,-252 23.7962,-252 23.7962,-216 140.2038,-216 140.2038,-252"/>
+<text text-anchor="middle" x="82" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">UsersComponent </text>
+</g>
+<!-- AdminModule&#45;&gt;UsersComponent  -->
+<g id="edge4" class="edge">
+<title>AdminModule&#45;&gt;UsersComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M84,-187.1061C84,-187.1061 84,-205.991 84,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="80.5001,-205.9909 84,-215.991 87.5001,-205.991 80.5001,-205.9909"/>
+</g>
+<!-- AppComponent -->
+<g id="node6" class="node">
+<title>AppComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="428.9399,-122 323.0601,-122 323.0601,-86 428.9399,-86 428.9399,-122"/>
+<text text-anchor="middle" x="376" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent</text>
+</g>
+<!-- AppModule -->
+<g id="node7" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="417.6571,-187 414.6571,-191 393.6571,-191 390.6571,-187 334.3429,-187 334.3429,-151 417.6571,-151 417.6571,-187"/>
+<text text-anchor="middle" x="376" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AppComponent&#45;&gt;AppModule -->
+<g id="edge5" class="edge">
+<title>AppComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M376,-122.1061C376,-122.1061 376,-140.991 376,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="372.5001,-140.9909 376,-150.991 379.5001,-140.991 372.5001,-140.9909"/>
+</g>
+<!-- AppComponent  -->
+<g id="node8" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="430.439,-252 321.561,-252 321.561,-216 430.439,-216 430.439,-252"/>
+<text text-anchor="middle" x="376" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge6" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M376,-187.1061C376,-187.1061 376,-205.991 376,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="372.5001,-205.9909 376,-215.991 379.5001,-205.991 372.5001,-205.9909"/>
+</g>
+<!-- FrontComponent -->
+<g id="node9" class="node">
+<title>FrontComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="581.6667,-122 470.3333,-122 470.3333,-86 581.6667,-86 581.6667,-122"/>
+<text text-anchor="middle" x="526" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">FrontComponent</text>
+</g>
+<!-- FrontModule -->
+<g id="node10" class="node">
+<title>FrontModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="570.8837,-187 567.8837,-191 546.8837,-191 543.8837,-187 481.1163,-187 481.1163,-151 570.8837,-151 570.8837,-187"/>
+<text text-anchor="middle" x="526" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">FrontModule</text>
+</g>
+<!-- FrontComponent&#45;&gt;FrontModule -->
+<g id="edge7" class="edge">
+<title>FrontComponent&#45;&gt;FrontModule</title>
+<path fill="none" stroke="#000000" d="M526,-122.1061C526,-122.1061 526,-140.991 526,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="522.5001,-140.9909 526,-150.991 529.5001,-140.991 522.5001,-140.9909"/>
+</g>
+<!-- GuideComponent -->
+<g id="node11" class="node">
+<title>GuideComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="737.5451,-122 622.4549,-122 622.4549,-86 737.5451,-86 737.5451,-122"/>
+<text text-anchor="middle" x="680" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">GuideComponent</text>
+</g>
+<!-- GuideModule -->
+<g id="node12" class="node">
+<title>GuideModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="726.7619,-187 723.7619,-191 702.7619,-191 699.7619,-187 633.2381,-187 633.2381,-151 726.7619,-151 726.7619,-187"/>
+<text text-anchor="middle" x="680" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">GuideModule</text>
+</g>
+<!-- GuideComponent&#45;&gt;GuideModule -->
+<g id="edge8" class="edge">
+<title>GuideComponent&#45;&gt;GuideModule</title>
+<path fill="none" stroke="#000000" d="M680,-122.1061C680,-122.1061 680,-140.991 680,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="676.5001,-140.9909 680,-150.991 683.5001,-140.991 676.5001,-140.9909"/>
+</g>
+<!-- ProjectComponent -->
+<g id="node13" class="node">
+<title>ProjectComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="898.486,-122 777.514,-122 777.514,-86 898.486,-86 898.486,-122"/>
+<text text-anchor="middle" x="838" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ProjectComponent</text>
+</g>
+<!-- ProjectModule -->
+<g id="node14" class="node">
+<title>ProjectModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="887.7036,-187 884.7036,-191 863.7036,-191 860.7036,-187 788.2964,-187 788.2964,-151 887.7036,-151 887.7036,-187"/>
+<text text-anchor="middle" x="838" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">ProjectModule</text>
+</g>
+<!-- ProjectComponent&#45;&gt;ProjectModule -->
+<g id="edge9" class="edge">
+<title>ProjectComponent&#45;&gt;ProjectModule</title>
+<path fill="none" stroke="#000000" d="M838,-122.1061C838,-122.1061 838,-140.991 838,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="834.5001,-140.9909 838,-150.991 841.5001,-140.991 834.5001,-140.9909"/>
+</g>
+</g>
+</svg>
+
+                </div>
+                <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+                <div class="btn-group">
+                    <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+                    <button id="reset" class="btn btn-default btn-sm">Reset</button>
+                    <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+                </div>
+            </div>
+<div class="container-fluid overview">
+    <div class="row">
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-archive"></span></h4>
+                        <p class="card-text">
+                            <a href="./modules.html">5 modules</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-cogs"></span></h4>
+                        <p class="card-text">6 components</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-file-code-o"></span></h4>
+                        <p class="card-text">1 class</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="js/libs/svg-pan-zoom.min.js"></script>
+<script src="js/svg-pan-zoom.controls.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>
